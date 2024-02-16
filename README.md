@@ -31,7 +31,7 @@ Message Tracker is a powerful yet user-friendly Discord Bot that focuses on stor
 
 ## Support
 
-* [![Discord Banner](https://discordapp.com/api/guilds/1015509043130933278/widget.png?style=banner2)](https://discord.gg/HRvAb2cjBg)
+[![Discord Banner](https://discordapp.com/api/guilds/1015509043130933278/widget.png?style=banner2)](https://discord.gg/HRvAb2cjBg)
 
 ## Deploy your own Message Tracker
 
@@ -39,6 +39,7 @@ Message Tracker is a powerful yet user-friendly Discord Bot that focuses on stor
 * Commit `git clone https://github.com/raianah/message-tracker.git`
 * Create a `.env` file containing the following:
   * `MAIN_TOKEN = "YOUR_DISCORD_BOT_TOKEN"`
+* Create a folder named `data`. Inside `data` folder create another folder named `db`. This is the default path for your SQLite database.
 * Install python packages through `requirements.txt`.
 * Run `main.py`.
 
