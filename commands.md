@@ -1,0 +1,13 @@
+# Commands
+
+## Main Commands
+
+<table><thead><tr><th width="203">Command Name</th><th width="119">Parameters</th><th>Example Usage</th></tr></thead><tbody><tr><td><code>/view-messages</code></td><td>channel</td><td><code>/view-messages channel:general</code></td></tr><tr><td><code>/raw-messages</code></td><td>channel</td><td><code>/raw-messages channel:general</code></td></tr><tr><td><code>/report</code></td><td>message</td><td><code>/report message:Your text here.</code></td></tr><tr><td><code>/areport</code></td><td>message</td><td><code>/areport message:Your text here.</code></td></tr><tr><td><code>/snipe</code></td><td>N/A</td><td><code>/snipe</code></td></tr><tr><td><code>/begin</code></td><td>N/A</td><td><code>/begin</code></td></tr><tr><td><code>/stop</code></td><td>N/A</td><td><code>/stop</code></td></tr></tbody></table>
+
+## Configuration Commands
+
+<table><thead><tr><th width="201">Command Name</th><th width="129">Parameters</th><th>Example Usage</th></tr></thead><tbody><tr><td><code>/enable logs</code></td><td>channel</td><td><code>/enable logs channel:general</code></td></tr><tr><td><code>/enable modlogs</code></td><td>channel, mod_role, required_role</td><td><code>/enable modlogs channel:general</code><br><code>/enable modlogs mod_role:Moderator</code><br><code>/enable modlogs required_role:Reporter</code></td></tr><tr><td><code>/enable channel</code></td><td>channel</td><td><code>/enable channel channel:general</code></td></tr><tr><td><code>/enable role</code></td><td>role</td><td><code>/enable role:Reporter</code></td></tr><tr><td><code>/enable user</code></td><td>user</td><td><code>/enable user:@raianah_</code></td></tr><tr><td><code>/disable logs</code></td><td>N/A</td><td><code>/disable logs</code></td></tr><tr><td><code>/disable modlogs</code></td><td>N/A</td><td><code>/disable modlogs</code></td></tr><tr><td><code>/disable channel</code></td><td>channel</td><td><code>/disable channel channel:general</code></td></tr><tr><td><code>/disable role</code></td><td>role</td><td><code>/disable role:Reporter</code></td></tr><tr><td><code>/disable user</code></td><td>user</td><td><code>disable role:@raianah_</code></td></tr></tbody></table>
+
+## Other Commands
+
+<table><thead><tr><th width="200">Command Name</th><th>Parameters</th><th>Example Usage</th></tr></thead><tbody><tr><td><code>/invite</code></td><td>N/A</td><td><code>/invite</code></td></tr><tr><td><code>/ping</code></td><td>N/A</td><td><code>/ping</code></td></tr><tr><td><code>/github</code></td><td>N/A</td><td><code>/github</code></td></tr><tr><td><code>/avatar</code></td><td>user</td><td><code>/avatar user:@raianah_</code></td></tr></tbody></table>

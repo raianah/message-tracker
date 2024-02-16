@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page](README.md)
+* [Homepage](README.md)
+* [Commands](commands.md)
