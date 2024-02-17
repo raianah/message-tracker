@@ -61,10 +61,9 @@ class Utility(commands.Cog):
 		print("Utility is loaded.")
 
 	@commands.slash_command(name="view-messages", description="Show the list of messages sent by the user.", option=[
-		Option("channel", "The channel to retrieve messages.", OptionType.channel, required=False),
-		#Option("message_id", "The message ID to retrieve.", OptionType.integer, required=False)
+		Option("channel", "The channel to retrieve messages.", OptionType.channel, required=False)
 	])
-	async def view_messages(self, ctx: ApplicationCommandInteraction, channel: TextChannel = None): #message_id: int = None):
+	async def view_messages(self, ctx: ApplicationCommandInteraction, channel: TextChannel = None):
 		await ctx.response.defer()
 		new_list = []
 		channel = channel or ctx.channel
