@@ -1,0 +1,4 @@
+disnake>=2.8.0
+apscheduler
+dotenv
+disnake-ext-menus
